@@ -127,6 +127,7 @@ public class UserController {
     Map<String, Boolean> response = new HashMap<>();
     response.put("deleted", Boolean.TRUE);
     System.out.println("ok");
+    System.out.println("akshay");
     return response;
   }
 }
