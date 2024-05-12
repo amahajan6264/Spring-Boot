@@ -128,6 +128,7 @@ public class UserController {
     response.put("deleted", Boolean.TRUE);
     System.out.println("ok");
     System.out.println("akshay");
+    System.out.println("akshay");
     return response;
   }
 }
