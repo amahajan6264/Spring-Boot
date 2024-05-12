@@ -126,6 +126,7 @@ public class UserController {
     userRepository.delete(user);
     Map<String, Boolean> response = new HashMap<>();
     response.put("deleted", Boolean.TRUE);
+    System.out.println("ok");
     return response;
   }
 }
